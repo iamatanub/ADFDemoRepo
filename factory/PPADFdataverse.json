@@ -1,0 +1,9 @@
+{
+	"name": "PPADFdataverse",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d141e37a-8e8d-46fb-8367-2d3e5b2f06c1",
+		"tenantId": "d22dc9ae-2781-4b50-8fd9-09a088ae0fce"
+	}
+}
