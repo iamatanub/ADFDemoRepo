@@ -4,6 +4,12 @@
 	"parameters": {
 		"factoryName": {
 			"value": "PPADFdataverse"
+		},
+		"LS_ADLS_Gen2_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_Gen2_properties_typeProperties_url": {
+			"value": "https://sgpowerplatform.dfs.core.windows.net/"
 		}
 	}
 }
