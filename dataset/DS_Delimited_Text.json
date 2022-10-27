@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "abcd.csv",
 				"fileSystem": "input"
 			},
 			"columnDelimiter": ",",
