@@ -1,0 +1,15 @@
+{
+	"name": "ls_Dataverse",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "CommonDataServiceForApps",
+		"typeProperties": {
+			"deploymentType": "Online",
+			"serviceUri": "https://org5b430deb.api.crm5.dynamics.com/",
+			"authenticationType": "Office365",
+			"username": "atanuppmsft@7mc21r.onmicrosoft.com",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDAwMEFDOTk2LTg3OUEtNEZBQS1BRkM3LTVEODBCMEQ0QTJGMV9kYzQ0MWY0Yi0wMzhhLTQ5ZTktOTJkNS1kNGY0OTA2YjMwOTYiDQp9"
+		}
+	}
+}
