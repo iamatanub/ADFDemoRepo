@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "Copy_ADLS_To_Dataverse",
 	"properties": {
 		"activities": [
 			{
