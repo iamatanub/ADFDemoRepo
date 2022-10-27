@@ -11,9 +11,17 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'LS_ADLS_Gen2'"
 		},
+		"ls_Dataverse_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'ls_Dataverse'"
+		},
 		"LS_ADLS_Gen2_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://sgpowerplatform.dfs.core.windows.net/"
+		},
+		"ls_Dataverse_properties_typeProperties_username": {
+			"type": "string",
+			"defaultValue": "atanuppmsft@7mc21r.onmicrosoft.com"
 		},
 		"containerUri": {
 			"type": "string",
@@ -45,8 +53,14 @@
 					"LS_ADLS_Gen2_accountKey": {
 						"value": "[parameters('LS_ADLS_Gen2_accountKey')]"
 					},
+					"ls_Dataverse_password": {
+						"value": "[parameters('ls_Dataverse_password')]"
+					},
 					"LS_ADLS_Gen2_properties_typeProperties_url": {
 						"value": "[parameters('LS_ADLS_Gen2_properties_typeProperties_url')]"
+					},
+					"ls_Dataverse_properties_typeProperties_username": {
+						"value": "[parameters('ls_Dataverse_properties_typeProperties_username')]"
 					}
 				}
 			},

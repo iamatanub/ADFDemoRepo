@@ -8,8 +8,14 @@
 		"LS_ADLS_Gen2_accountKey": {
 			"value": ""
 		},
+		"ls_Dataverse_password": {
+			"value": ""
+		},
 		"LS_ADLS_Gen2_properties_typeProperties_url": {
 			"value": "https://sgpowerplatform.dfs.core.windows.net/"
+		},
+		"ls_Dataverse_properties_typeProperties_username": {
+			"value": "atanuppmsft@7mc21r.onmicrosoft.com"
 		}
 	}
 }
